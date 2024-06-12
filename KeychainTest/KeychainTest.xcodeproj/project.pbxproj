@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C448522C19E45B00E13FD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C448512C19E45B00E13FD6 /* Constants.swift */; };
+		08C448532C19E45B00E13FD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C448512C19E45B00E13FD6 /* Constants.swift */; };
+		08E191AC2C18868000F5F4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E191AB2C18868000F5F4E8 /* AppDelegate.swift */; };
+		08E191AE2C18868000F5F4E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E191AD2C18868000F5F4E8 /* SceneDelegate.swift */; };
+		08E191B02C18868000F5F4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E191AF2C18868000F5F4E8 /* ViewController.swift */; };
+		08E191B32C18868000F5F4E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 08E191B22C18868000F5F4E8 /* Base */; };
+		08E191B52C18868300F5F4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E191B42C18868300F5F4E8 /* Assets.xcassets */; };
+		08E191B82C18868300F5F4E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 08E191B72C18868300F5F4E8 /* Base */; };
+		08E191CA2C188E0300F5F4E8 /* KeychianWatchTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E191C92C188E0300F5F4E8 /* KeychianWatchTestApp.swift */; };
+		08E191CC2C188E0300F5F4E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E191CB2C188E0300F5F4E8 /* ContentView.swift */; };
+		08E191CE2C188E0600F5F4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E191CD2C188E0600F5F4E8 /* Assets.xcassets */; };
+		08E191D12C188E0600F5F4E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E191D02C188E0600F5F4E8 /* Preview Assets.xcassets */; };
+		08E191D42C188E0600F5F4E8 /* KeychianWatchTest Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 08E191C72C188E0300F5F4E8 /* KeychianWatchTest Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		08E191DD2C188EC500F5F4E8 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 08E191DC2C188EC500F5F4E8 /* KeychainAccess */; };
+		08E191DF2C188EEC00F5F4E8 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 08E191DE2C188EEC00F5F4E8 /* KeychainAccess */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E191D22C188E0600F5F4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E191A02C18868000F5F4E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E191C62C188E0300F5F4E8;
+			remoteInfo = "KeychianWatchTest Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08E191D82C188E0600F5F4E8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				08E191D42C188E0600F5F4E8 /* KeychianWatchTest Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		083B99402C18C157005A34CD /* KeychianWatchTest Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KeychianWatchTest Watch App.entitlements"; sourceTree = "<group>"; };
+		08C448512C19E45B00E13FD6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08E191A82C18868000F5F4E8 /* KeychainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E191AB2C18868000F5F4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08E191AD2C18868000F5F4E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08E191AF2C18868000F5F4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08E191B22C18868000F5F4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08E191B42C18868300F5F4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08E191B72C18868300F5F4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08E191B92C18868300F5F4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E191C22C188AB400F5F4E8 /* KeychainTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainTest.entitlements; sourceTree = "<group>"; };
+		08E191C72C188E0300F5F4E8 /* KeychianWatchTest Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeychianWatchTest Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E191C92C188E0300F5F4E8 /* KeychianWatchTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychianWatchTestApp.swift; sourceTree = "<group>"; };
+		08E191CB2C188E0300F5F4E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08E191CD2C188E0600F5F4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08E191D02C188E0600F5F4E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E191A52C18868000F5F4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191DF2C188EEC00F5F4E8 /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E191C42C188E0300F5F4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191DD2C188EC500F5F4E8 /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E1919F2C18868000F5F4E8 = {
+			isa = PBXGroup;
+			children = (
+				08E191AA2C18868000F5F4E8 /* KeychainTest */,
+				08E191C82C188E0300F5F4E8 /* KeychianWatchTest Watch App */,
+				08E191A92C18868000F5F4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08E191A92C18868000F5F4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08E191A82C18868000F5F4E8 /* KeychainTest.app */,
+				08E191C72C188E0300F5F4E8 /* KeychianWatchTest Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08E191AA2C18868000F5F4E8 /* KeychainTest */ = {
+			isa = PBXGroup;
+			children = (
+				08E191C22C188AB400F5F4E8 /* KeychainTest.entitlements */,
+				08C448512C19E45B00E13FD6 /* Constants.swift */,
+				08E191AB2C18868000F5F4E8 /* AppDelegate.swift */,
+				08E191AD2C18868000F5F4E8 /* SceneDelegate.swift */,
+				08E191AF2C18868000F5F4E8 /* ViewController.swift */,
+				08E191B12C18868000F5F4E8 /* Main.storyboard */,
+				08E191B42C18868300F5F4E8 /* Assets.xcassets */,
+				08E191B62C18868300F5F4E8 /* LaunchScreen.storyboard */,
+				08E191B92C18868300F5F4E8 /* Info.plist */,
+			);
+			path = KeychainTest;
+			sourceTree = "<group>";
+		};
+		08E191C82C188E0300F5F4E8 /* KeychianWatchTest Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				083B99402C18C157005A34CD /* KeychianWatchTest Watch App.entitlements */,
+				08E191C92C188E0300F5F4E8 /* KeychianWatchTestApp.swift */,
+				08E191CB2C188E0300F5F4E8 /* ContentView.swift */,
+				08E191CD2C188E0600F5F4E8 /* Assets.xcassets */,
+				08E191CF2C188E0600F5F4E8 /* Preview Content */,
+			);
+			path = "KeychianWatchTest Watch App";
+			sourceTree = "<group>";
+		};
+		08E191CF2C188E0600F5F4E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08E191D02C188E0600F5F4E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08E191A72C18868000F5F4E8 /* KeychainTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E191BC2C18868300F5F4E8 /* Build configuration list for PBXNativeTarget "KeychainTest" */;
+			buildPhases = (
+				08E191A42C18868000F5F4E8 /* Sources */,
+				08E191A52C18868000F5F4E8 /* Frameworks */,
+				08E191A62C18868000F5F4E8 /* Resources */,
+				08E191D82C188E0600F5F4E8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E191D32C188E0600F5F4E8 /* PBXTargetDependency */,
+			);
+			name = KeychainTest;
+			packageProductDependencies = (
+				08E191DE2C188EEC00F5F4E8 /* KeychainAccess */,
+			);
+			productName = KeychainTest;
+			productReference = 08E191A82C18868000F5F4E8 /* KeychainTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08E191C62C188E0300F5F4E8 /* KeychianWatchTest Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E191D52C188E0600F5F4E8 /* Build configuration list for PBXNativeTarget "KeychianWatchTest Watch App" */;
+			buildPhases = (
+				08E191C32C188E0300F5F4E8 /* Sources */,
+				08E191C42C188E0300F5F4E8 /* Frameworks */,
+				08E191C52C188E0300F5F4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeychianWatchTest Watch App";
+			packageProductDependencies = (
+				08E191DC2C188EC500F5F4E8 /* KeychainAccess */,
+			);
+			productName = "KeychianWatchTest Watch App";
+			productReference = 08E191C72C188E0300F5F4E8 /* KeychianWatchTest Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08E191A02C18868000F5F4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					08E191A72C18868000F5F4E8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					08E191C62C188E0300F5F4E8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 08E191A32C18868000F5F4E8 /* Build configuration list for PBXProject "KeychainTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08E1919F2C18868000F5F4E8;
+			packageReferences = (
+				08E191DB2C188EC500F5F4E8 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
+			productRefGroup = 08E191A92C18868000F5F4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08E191A72C18868000F5F4E8 /* KeychainTest */,
+				08E191C62C188E0300F5F4E8 /* KeychianWatchTest Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E191A62C18868000F5F4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191B52C18868300F5F4E8 /* Assets.xcassets in Resources */,
+				08E191B82C18868300F5F4E8 /* Base in Resources */,
+				08E191B32C18868000F5F4E8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E191C52C188E0300F5F4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191D12C188E0600F5F4E8 /* Preview Assets.xcassets in Resources */,
+				08E191CE2C188E0600F5F4E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08E191A42C18868000F5F4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191B02C18868000F5F4E8 /* ViewController.swift in Sources */,
+				08E191AC2C18868000F5F4E8 /* AppDelegate.swift in Sources */,
+				08E191AE2C18868000F5F4E8 /* SceneDelegate.swift in Sources */,
+				08C448522C19E45B00E13FD6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E191C32C188E0300F5F4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E191CC2C188E0300F5F4E8 /* ContentView.swift in Sources */,
+				08E191CA2C188E0300F5F4E8 /* KeychianWatchTestApp.swift in Sources */,
+				08C448532C19E45B00E13FD6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E191D32C188E0600F5F4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E191C62C188E0300F5F4E8 /* KeychianWatchTest Watch App */;
+			targetProxy = 08E191D22C188E0600F5F4E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08E191B12C18868000F5F4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E191B22C18868000F5F4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08E191B62C18868300F5F4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E191B72C18868300F5F4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08E191BA2C18868300F5F4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08E191BB2C18868300F5F4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08E191BD2C18868300F5F4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeychainTest/KeychainTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeychainTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lexone.KeychainTestNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08E191BE2C18868300F5F4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeychainTest/KeychainTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeychainTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lexone.KeychainTestNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08E191D62C188E0600F5F4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychianWatchTest Watch App/KeychianWatchTest Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeychianWatchTest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KeychianWatchTest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.lexone.KeychainTestNew;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lexone.KeychainTestNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		08E191D72C188E0600F5F4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KeychianWatchTest Watch App/KeychianWatchTest Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeychianWatchTest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KeychianWatchTest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ru.lexone.KeychainTestNew;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.lexone.KeychainTestNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E191A32C18868000F5F4E8 /* Build configuration list for PBXProject "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E191BA2C18868300F5F4E8 /* Debug */,
+				08E191BB2C18868300F5F4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E191BC2C18868300F5F4E8 /* Build configuration list for PBXNativeTarget "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E191BD2C18868300F5F4E8 /* Debug */,
+				08E191BE2C18868300F5F4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E191D52C188E0600F5F4E8 /* Build configuration list for PBXNativeTarget "KeychianWatchTest Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E191D62C188E0600F5F4E8 /* Debug */,
+				08E191D72C188E0600F5F4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08E191DB2C188EC500F5F4E8 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08E191DC2C188EC500F5F4E8 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08E191DB2C188EC500F5F4E8 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		08E191DE2C188EEC00F5F4E8 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08E191DB2C188EC500F5F4E8 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08E191A02C18868000F5F4E8 /* Project object */;
+}
